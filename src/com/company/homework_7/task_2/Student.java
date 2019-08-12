@@ -9,6 +9,6 @@ public class Student extends Person {
 
     @Override
     public void print() {
-        System.out.println("My name is " + this.getName() + " and I am a " + this.position);
+        System.out.println("My name is " + getName() + " and I am a " + position);
     }
 }

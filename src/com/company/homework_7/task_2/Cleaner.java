@@ -15,13 +15,13 @@ public class Cleaner extends Staff {
 
     @Override
     public int salary() {
-        System.out.println("My salary as a cleaner is : " + this.getSalary());
-        return this.getSalary();
+        System.out.println("My salary as a cleaner is : " + getSalary());
+        return getSalary();
     }
 
     @Override
     public void print() {
         super.print();
-        System.out.println("My name is " + this.getName() + " and I am a " + this.position);
+        System.out.println("My name is " + getName() + " and I am a " + position);
     }
 }

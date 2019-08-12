@@ -14,11 +14,11 @@ public class Cat extends Animal {
 
     @Override
     public void voice() {
-        System.out.println("cat " + this.getName() + " says meow");
+        System.out.println("cat " + name + " says meow");
     }
 
     @Override
     public void feed() {
-        System.out.println("cat " + this.getName() + " want to eat milk and meat");
+        System.out.println("cat " + name + " want to eat milk and meat");
     }
 }

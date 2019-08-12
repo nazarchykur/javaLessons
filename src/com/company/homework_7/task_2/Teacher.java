@@ -15,8 +15,8 @@ public class Teacher extends Staff {
 
     @Override
     public int salary() {
-        System.out.println("My salary as a teacher is : " + this.getSalary());
-        return this.getSalary();
+        System.out.println("My salary as a teacher is : " + getSalary());
+        return getSalary();
     }
 
     @Override

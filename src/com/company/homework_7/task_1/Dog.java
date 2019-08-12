@@ -14,11 +14,11 @@ public class Dog extends Animal {
 
     @Override
     public void voice() {
-        System.out.println("dog " + this.getName() + " says woof");
+        System.out.println("dog " + name + " says woof");
     }
 
     @Override
     public void feed() {
-        System.out.println("dog  " + this.getName() + " want to eat bones and meat");
+        System.out.println("dog " + name + " want to eat bones and meat");
     }
 }
